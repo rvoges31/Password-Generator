@@ -59,8 +59,7 @@ function randomPassword(len, minUpper, minLower, minNumber, minSpecial) {
   );
 
   rsMixed = rs.sort(() => Math.random() > Math.random()).join(''); // joins the array and randomises input then returns the result to the 
-  alert("Generated Password: " + rsMixed);
-
+  alert("Generated Password: " + rsMixed); // alert to display code on screen
 }
 
 
